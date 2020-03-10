@@ -1,0 +1,38 @@
+* {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+body {
+    background: rgb(35, 40, 45);
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 2.8rem;
+}
+
+header {
+    background: rgb(65, 70, 80);
+}
+
+footer {
+    color: white;
+    background: rgb(65, 70, 80);
+    font-size: smaller;
+}
+
+h2 {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a:hover .portfolio-link {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.portfolio-link {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.4);
+    background: rgb(65, 70, 80);
+}
